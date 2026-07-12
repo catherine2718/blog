@@ -22,7 +22,7 @@ jobs:
       - name: Checkout vault repo
         uses: actions/checkout@v4
         with:
-          repository: <you>/<vault-repo>
+          repository: catherine2718/ml-notes
           token: ${{ secrets.VAULT_PAT }}
           path: vault-checkout
 
