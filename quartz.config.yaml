@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: catherine2718.github.io/ml-notes-published
+  baseUrl: catherine2718.github.io/blog
   ignorePatterns:
     - private
     - templates
