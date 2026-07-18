@@ -4,3 +4,9 @@
 .katex-display {
   text-align: center !important;
 }
+
+.katex .mord.text,
+.katex .textrm,
+.katex .textup {
+  font-family: KaTeX_Main, serif !important;
+}
