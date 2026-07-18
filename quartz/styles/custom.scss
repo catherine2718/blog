@@ -5,8 +5,8 @@
   text-align: center !important;
 }
 
-.katex .mord,
-.katex .mop,
+.katex .mord:not(.mathnormal):not(.mathit):not(.mathbf):not(.mathdefault):not(.mathbb):not(.mathcal):not(.mathfrak):not(.mathscr):not(.mathtt),
+.katex .mop:not(.op-symbol),
 .katex .mspace,
 .katex .mpunct,
 .katex .textrm,
