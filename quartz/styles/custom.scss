@@ -5,7 +5,10 @@
   text-align: center !important;
 }
 
-.katex .mord.text,
+.katex .mord,
+.katex .mop,
+.katex .mspace,
+.katex .mpunct,
 .katex .textrm,
 .katex .textup {
   font-family: KaTeX_Main, serif !important;
