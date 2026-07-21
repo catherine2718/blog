@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Quartz 5
+  pageTitle: catherine's blog
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
@@ -83,6 +83,7 @@ plugins:
     layout:
       position: right
       priority: 30
+      condition: not-index
   - source: github:quartz-community/crawl-links
     enabled: true
     options:
@@ -157,8 +158,9 @@ plugins:
     layout:
       position: left
       priority: 50
+      condition: not-index
   - source: github:quartz-community/graph
-    enabled: true
+    enabled: false
     layout:
       position: right
       priority: 10
